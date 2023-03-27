@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HairSalon Website </title>
+        <link rel="stylesheet" href="style.css"><!--connect the css with the html-->
+    </head>
+
+    <body>
+        <section id="banner">
+            <img src="images/logo.jpeg" class="logo">
+            <div class="banner-text">
+                <h1>Welcome at our salon!</h1>
+                <p>
+                    Of course it’s real! 
+                </p>
+                <div class="banner-btn">
+                    <a href="#"><span></span> Find Out</a>
+                    <a href="#"><span></span>Read More</a>
+                </div>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav><!--defines a seet of navigation links-->
+            <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">TESTIMONIALS</a></li>
+                    <li><a href="#">MEET US</a></li>
+            </ul><!--unordered list of items-->
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="images/menu.jpg" id="menu">
+<!--this will work on the menu part..it is a js code-->
+           <script>
+            var menuBtn=document.getElementById("menuBtn");
+            var sideNav=document.getElementById("sideNav");
+            var menu=document.getElementById("menu");
+
+            sideNav.style.right=="-150px";
+<!--when the bt in clicked it will hide it until teh user clicks again -->
+            menuBtn.onclick=function(){
+                if(sideNav.style.right=="-150px"){
+                sideNav.style.right="0";
+                menu.src=="images/mbyll.jpeg";
+                }
+            
+            else{
+                sideNav.style.right="-150px"
+                menu.src=="images/mbyll.jpeg";
+            }
+            }
+
+           </script> 
+
+        </div>
+    </body>
+</html>

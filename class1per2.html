@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--ca behet ne head nuk shfaqet ne browser vetem gjerat brenda body do te shfaqen-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="university;faculty">
+    <title>Document</title>
+    <!--the relation-->
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="">
+
+    <!--style is for css and script is for js-->
+    <style>
+
+    </style>
+
+    <script>
+        let y = 5;
+    </script>
+</head>
+
+<body>
+
+    <h2>Anchortag</h2>
+    <a href="https://epoka.edu.al">Epoka Uni</a>
+    <a href="https://google.com">Google</a>
+    <!--when the target value is blank it means the link will open a new page-->
+    <a href="https://google.com" target="_blank">Google</a>
+
+    <h3>Lists</h3>
+    <h5>Ordered List</h5>
+    <ol type="I">
+        <li><a href="https://epoka.edu.al">Epoka Uni</a> </li>
+        <li><a href="https://epoka.edu.al">Epoka Uni</a></li>
+        <ol type="i">
+            <li>Hello</li>
+        </ol>
+    </ol>
+
+    <h3>Table</h3>
+    <table border="1">
+        <!--thead is bold ndersa tdata nuk eshte bold dhe eshte ne qender-->
+        <thead>
+            <tr>
+                <th rowspan="2">#</th>
+                <th colspan="2">Product</th>
+                <th colspan="2">Inventory</th>
+            </tr>
+            <tr>
+
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Unit</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>product</td>
+                <td>5</td>
+                <td>8</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>product</td>
+                <td>5</td>
+                <td>8</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>product</td>
+                <td>5</td>
+                <td>8</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>product</td>
+                <td>5</td>
+                <td>8</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>product</td>
+                <td>5</td>
+                <td>8</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+
+    <form method="get" action="search.php"><!--url e definon tagu action -->
+        <label for="">Search</label>
+        <input id="search" type="text" name="search">
+
+        <input type="submit" value="Input  Submit">
+        <button type="submit" >Btn Submit</button>
+    </form>
+</body>
+
+</html>
